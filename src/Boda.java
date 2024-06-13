@@ -2,7 +2,7 @@ public class Boda extends TipoEvento{
     public String fecha;
     public String lugar;
 
-    public Boda(String id_cliente, Double costo_base, String fecha1, String lugar) {
+    public Boda(String id_cliente, String fecha, String tipo_evento, Double costo_base, String fecha1, String lugar) {
         super(id_cliente, fecha, tipo_evento, costo_base);
         this.fecha = fecha1;
         this.lugar = lugar;

@@ -4,7 +4,7 @@ public class Main {
         Cliente cliente = new Cliente("1", "Juan Pérez");
 
         // Crear una boda
-        Boda boda = new Boda("1",2000.0, "2024-12-12", "Playa");
+        Boda boda = new Boda("1","2024-12-12", "Perreo",500.0, "2024-12-12","Playa");
 
         // Crear una conferencia
         Conferencia conferencia = new Conferencia("2", "2024-11-11", "Conferencia", 3000.0, "Conferencia Internacional de Tecnología","2024-11-11");
